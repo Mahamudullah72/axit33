@@ -1,0 +1,236 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media (max-width: 991px) {
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=
+		Nave responsive css
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+	.axit-nave-logo{
+		width: 100%;
+	}
+	
+	.axit-nave-logo img{
+		width: 80%;
+	}
+	.axit-nave-menu ul li a{
+	color: #b0b0b0;
+	padding: 0 12px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=
+		Hero responsive css
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.axit-hero-form{
+	margin-top: 0;
+	margin-bottom: 100px;
+}
+
+.axit-hero-title button{
+	margin-bottom: 100px;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=
+	social responsive css
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.axit-social-media-icon ul li a{
+	padding: 0 31px;
+}
+.axit-social-media-area{
+	padding-bottom: 25px;
+}
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=
+	content responsive css
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.axit-content-tab{
+	padding-bottom: 0;
+}
+
+.axit-content-title{
+	padding-bottom: 0;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=
+	service responsive css
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.axit-service-item p{
+	margin-bottom: 50px;
+}
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=
+	Work responsive css
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.axit-work-basic-price{
+	margin-top: 50px;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=
+	contact	 responsive css
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+.axit-contact-mgs{
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	margin-top: 50px;
+}
+
+}
+
+@media (max-width: 767px) {
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=
+		Nave responsive css
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.axit-nave-logo{
+		width: 100%;
+	}
+	
+	.axit-nave-logo img{
+		width: 50%;
+	}
+.axit-nave-menu ul{
+	display: block;
+}
+.axit-nave-area{
+	position: relative;
+}
+.axit-nave-menu{
+	background: #ff8b38;
+	text-align: right;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	display: none;
+	
+}
+
+.axit-nave-menu ul li a{
+	padding: 10px 30px ;
+	display: block;
+	color: #000;
+}
+
+.axit-nave-menu-icon{
+	display: block;
+	text-align: right;
+
+}
+.axit-nave-menu-icon i{
+    color: #b0b0b0;
+	font-size: 23px;
+	color: #d35400;
+}
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=
+	customer responsive css
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.axit-customer-mgs{
+	width: 100%;
+}
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=
+	social responsive css
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.axit-social-media-icon ul li a{
+	padding: 0 22px;
+}
+.axit-social-media-icon ul li a i{
+	font-size: 35px;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=
+	review responsive css
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.axit-review-title h2::after{
+	left: 50%;
+-webkit-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+        transform: translatex(-50%);
+}
+}
+
+@media (max-width: 575px) {
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=
+		Nave responsive css
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.axit-nave-logo{
+		width: 100%;
+	}
+	
+.axit-nave-logo img{
+	width: 55%;
+}
+.axit-nave-menu-icon i{
+    color: #b0b0b0;
+	font-size: 20px;
+	
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=
+	Hero responsive css
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.axit-hero-title h1{
+	font-size: 30px;
+}
+
+.axit-hero-form{
+	margin-right: 0;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=
+	Social responsive css
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.axit-social-media-icon ul{
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.axit-social-media-icon ul li a{
+	padding: 0 10px;
+
+}
+.axit-social-media-icon ul li a i{
+	font-size: 25px;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=
+	service responsive css
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.axit-service-title h2:after{
+left: 50%;
+-webkit-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+        transform: translatex(-50%);
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=
+	design responsive css
+=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.axit-design-area h2::after{
+	left: 50%;
+	-webkit-transform: translatex(-50%);
+	    -ms-transform: translatex(-50%);
+	        transform: translatex(-50%);
+}
+
+.axit-footer-social-icon ul li a i{
+	font-size: 20px;
+	padding: 20px 15px 13px;
+}
+
+}
